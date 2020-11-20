@@ -1,8 +1,9 @@
 
-def 
-array = [1,2,3,4,5]
-new_array = []
-array.length.times do |index|
-  new_array.push(array[index]**2)
+def square_array(numbers)
+  numbers = [1,2,3,4,5]
+  new_numbers= []
+  numbers.length.times do |index|
+    new_numbers.push(array[index]**2)
+  end
 end
 puts new_array
